@@ -4,9 +4,9 @@
         <attribute name="name" value="feature and gameplay"/>
         <attribute name="authors" value="USER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-10-08 11:53:56 AM"/>
+        <attribute name="saved" value="2026-10-08 11:55:45 AM"/>
         <attribute name="created" value="VVNFUjtERVNLVE9QLUNFVVJQOTM7MjAyNi0xMC0wODsxMDozODo1MSBBTTsyNjU5"/>
-        <attribute name="edited" value="VVNFUjtERVNLVE9QLUNFVVJQOTM7MjAyNi0xMC0wODsxMTo1Mzo1NiBBTTs1OzI3NzQ="/>
+        <attribute name="edited" value="VVNFUjtERVNLVE9QLUNFVVJQOTM7MjAyNi0xMC0wODsxMTo1NTo0NSBBTTs2OzI3NzU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -38,7 +38,7 @@
         <body>
             <declare name="guess" type="Integer" array="False" size=""/>
             <declare name="attempts" type="Integer" array="False" size=""/>
-            <declare name="maxAttempt" type="Integer" array="False" size=""/>
+            <declare name="maxAttempts" type="Integer" array="False" size=""/>
             <declare name="hasWon" type="Boolean" array="False" size=""/>
             <assign variable="attempts" expression="0"/>
             <assign variable="maxAttempts" expression="3"/>
