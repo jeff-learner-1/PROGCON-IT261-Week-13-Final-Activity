@@ -13,7 +13,7 @@ def playGame(secret):
     maxAttempts = 3
     hasWon = False
     while attempts < maxAttempts and hasWon == False:
-        print("Hey bro, enter your move (1-9):")
+        print("Hey bro, enter your move (1-10):")
         guess = int(input())
         attempts = attempts + 1
         if guess == secret:
@@ -27,7 +27,10 @@ def playGame(secret):
     if hasWon == False:
         print("Game Over! The secret number was: " + str(secret))
 
-# Main
-displayWelcome()
-secretNumber = getSecretNumber()
-playGame(secretNumber)
+def main():
+    displayWelcome()
+    secretNumber = getSecretNumber()
+    playGame(secretNumber)
+
+if __name__ == "__main__":
+    main()
